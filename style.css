@@ -1,13 +1,3 @@
-header {
-    background: hsl(212,100%,85%);
-}
-
-nav {
-    background: hsl(212,63%,60%);
-    display: flex;
-    flex: 1 50px;
-}
-
 body {
     margin: 0;
     font-family: sans-serif;
@@ -16,6 +6,16 @@ body {
 article {
     display: flex;
     flex-direction: column;
+}
+
+nav {
+    background: hsl(212,63%,60%);
+    display: flex;
+    flex: 1 50px;
+}
+
+header {
+    background: hsl(212,100%,85%);
 }
 
 main {
