@@ -48,3 +48,57 @@ header, section, nav {
     justify-content: center;
     align-items: center;
 }
+
+
+@media screen and (min-width: 500px) and (max-width:899px) {
+    article {
+        flex-flow: row wrap;
+    }
+    nav {
+        min-height: 50px;
+    }
+
+    nav, main, header {
+        flex: 100%;
+    }
+
+    section {
+        height: 50vw;
+    }
+
+    header {
+        height: 25vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    article {
+        flex-flow: row wrap;
+    }
+    nav {
+        min-height: 50px;
+    }
+
+    nav, main, header {
+        flex: 100%;
+    }
+
+    .feature {
+        flex: calc(100vw / 3);
+        min-height: calc((100vw/3) * 1.25);
+    }
+
+    #signup {
+        order: 1;
+        height: 150px;
+        min-height: auto;
+    }
+
+    header {
+        height: 25vw;
+    }
+
+    main {
+        order: 2;
+    }
+}
