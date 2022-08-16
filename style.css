@@ -1,3 +1,50 @@
-h1 {
-    color: red;
+header {
+    background: hsl(212,100%,85%);
+}
+
+nav {
+    background: hsl(212,63%,60%);
+    display: flex;
+    flex: 1 50px;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background: hsl(210,17%,93%);
+    flex: 6;
+    padding: 1rem;
+}
+
+#signup {
+    background: hsl(212,95%,92%);
+}
+
+#feature-1 {
+    background: hsl(38,84%,76%);
+}
+#feature-2 {
+    background: hsl(358,74%,77%);
+}
+#feature-3 {
+    background: hsl(242,87%,88%);
+}
+
+header,
+section {
+    flex: 40vw;
+}
+
+header, section, nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
